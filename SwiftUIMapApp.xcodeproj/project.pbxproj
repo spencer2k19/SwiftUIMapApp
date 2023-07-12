@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B67ECFB32A5F4AA20052CA79 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ECFB22A5F4AA20052CA79 /* LocationsListView.swift */; };
 		B6ABF5A22A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABF5A12A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift */; };
 		B6ABF5A42A2CF8DA00E0A40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABF5A32A2CF8DA00E0A40B /* ContentView.swift */; };
 		B6ABF5A92A2CF8DB00E0A40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABF5A82A2CF8DB00E0A40B /* Preview Assets.xcassets */; };
 		B6ABF5B02A2CFAA600E0A40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABF5AF2A2CFAA600E0A40B /* Assets.xcassets */; };
 		B6ABF5B52A2CFB5E00E0A40B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABF5B42A2CFB5E00E0A40B /* Location.swift */; };
 		B6ABF5B82A2CFC2C00E0A40B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABF5B72A2CFC2C00E0A40B /* LocationsDataService.swift */; };
+		B6C0138C2A5D44EF00FF8937 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0138B2A5D44EF00FF8937 /* LocationsView.swift */; };
+		B6C0138E2A5E043200FF8937 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0138D2A5E043200FF8937 /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B67ECFB22A5F4AA20052CA79 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		B6ABF59E2A2CF8DA00E0A40B /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6ABF5A12A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
 		B6ABF5A32A2CF8DA00E0A40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +27,8 @@
 		B6ABF5AF2A2CFAA600E0A40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6ABF5B42A2CFB5E00E0A40B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B6ABF5B72A2CFC2C00E0A40B /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		B6C0138B2A5D44EF00FF8937 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		B6C0138D2A5E043200FF8937 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 		B6ABF5B22A2CFAFA00E0A40B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B6C0138B2A5D44EF00FF8937 /* LocationsView.swift */,
+				B67ECFB22A5F4AA20052CA79 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 		B6ABF5B32A2CFAFF00E0A40B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B6C0138D2A5E043200FF8937 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,7 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6ABF5B82A2CFC2C00E0A40B /* LocationsDataService.swift in Sources */,
+				B67ECFB32A5F4AA20052CA79 /* LocationsListView.swift in Sources */,
+				B6C0138E2A5E043200FF8937 /* LocationsViewModel.swift in Sources */,
 				B6ABF5A42A2CF8DA00E0A40B /* ContentView.swift in Sources */,
+				B6C0138C2A5D44EF00FF8937 /* LocationsView.swift in Sources */,
 				B6ABF5B52A2CFB5E00E0A40B /* Location.swift in Sources */,
 				B6ABF5A22A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift in Sources */,
 			);
