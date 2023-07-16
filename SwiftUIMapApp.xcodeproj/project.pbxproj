@@ -11,6 +11,8 @@
 		B67ECFB52A5FF2B40052CA79 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ECFB42A5FF2B40052CA79 /* LocationPreviewView.swift */; };
 		B67ECFB72A6008510052CA79 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ECFB62A6008510052CA79 /* LocationMapAnnotationView.swift */; };
 		B67ECFB92A600D290052CA79 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ECFB82A600D290052CA79 /* LocationDetailView.swift */; };
+		B67ECFC42A64454D0052CA79 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ECFC32A64454D0052CA79 /* Landmark.swift */; };
+		B67ECFC62A644C080052CA79 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B67ECFC52A644C080052CA79 /* landmarkData.json */; };
 		B6ABF5A22A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABF5A12A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift */; };
 		B6ABF5A42A2CF8DA00E0A40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABF5A32A2CF8DA00E0A40B /* ContentView.swift */; };
 		B6ABF5A92A2CF8DB00E0A40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABF5A82A2CF8DB00E0A40B /* Preview Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		B67ECFB62A6008510052CA79 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		B67ECFB82A600D290052CA79 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		B67ECFBA2A61F8EA0052CA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B67ECFC32A64454D0052CA79 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B67ECFC52A644C080052CA79 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../../Landmarks/Landmarks/Resources/landmarkData.json; sourceTree = "<group>"; };
 		B6ABF59E2A2CF8DA00E0A40B /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6ABF5A12A2CF8DA00E0A40B /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
 		B6ABF5A32A2CF8DA00E0A40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B67ECFBB2A643D650052CA79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B67ECFC52A644C080052CA79 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B6ABF5952A2CF8DA00E0A40B = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 		B6ABF5A02A2CF8DA00E0A40B /* SwiftUIMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				B67ECFBB2A643D650052CA79 /* Resources */,
 				B67ECFBA2A61F8EA0052CA79 /* Info.plist */,
 				B6ABF5B62A2CFC1D00E0A40B /* DataServices */,
 				B6ABF5B32A2CFAFF00E0A40B /* ViewModels */,
@@ -93,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B6ABF5B42A2CFB5E00E0A40B /* Location.swift */,
+				B67ECFC32A64454D0052CA79 /* Landmark.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,6 +199,7 @@
 			files = (
 				B6ABF5B02A2CFAA600E0A40B /* Assets.xcassets in Resources */,
 				B6ABF5A92A2CF8DB00E0A40B /* Preview Assets.xcassets in Resources */,
+				B67ECFC62A644C080052CA79 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6ABF5B82A2CFC2C00E0A40B /* LocationsDataService.swift in Sources */,
+				B67ECFC42A64454D0052CA79 /* Landmark.swift in Sources */,
 				B67ECFB72A6008510052CA79 /* LocationMapAnnotationView.swift in Sources */,
 				B67ECFB32A5F4AA20052CA79 /* LocationsListView.swift in Sources */,
 				B67ECFB52A5FF2B40052CA79 /* LocationPreviewView.swift in Sources */,

@@ -13,6 +13,9 @@ struct LocationsView: View {
     @EnvironmentObject private var vm: LocationsViewModel
     let maxWidthForIpad: CGFloat = 700
     
+    //show location detail via sheet
+    @State var sheetLocation: Location? = nil
+    
     
     var body: some View {
         ZStack {
